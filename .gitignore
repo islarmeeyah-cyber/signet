@@ -45,3 +45,6 @@ next-env.d.ts
 MAINTAINER.md
 # Contributor backlog draft — kept local; issues are filed on GitHub from it.
 ISSUES.md
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
