@@ -20,7 +20,7 @@
     "./tokens.css": "./src/tokens.css"
   },
   "scripts": {
-    "build": "tsc --noEmit && tsc --noEmit -p tsconfig.interactive.json",
+    "build": "node init && tsc --noEmit && tsc --noEmit -p tsconfig.interactive.json",
     "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.interactive.json",
     "lint": "eslint . --config ../../eslint.config.js",
     "test": "node --experimental-strip-types --test \"src/**/*.test.ts\""
